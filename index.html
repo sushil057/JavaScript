@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gov Officer Eligibility</title>
+</head>
+<body>
+
+<button onclick="checkEligibility()">Check Eligibility</button>
+
+<script>
+function checkEligibility() {
+    let age = prompt("What is your age?");
+    age = parseInt(age);
+
+    if (isNaN(age)) {
+        alert("Invalid input");
+    } else if (age < 18) {
+        alert("You are not eligible to apply for gov officer");
+    } else if (age <= 60) {
+        alert("You are eligible to be a gov officer");
+    } else {
+        alert("You are over aged for gov officer");
+    }
+}
+</script>
+
+</body>
+</html>
