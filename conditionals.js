@@ -30,3 +30,4 @@ if((number%3==0) && (number%2==0)){
 else{
     console.log("The number is not divisible by 2 and 3")
 }
+

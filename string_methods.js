@@ -15,4 +15,4 @@ let fruit = 'Apple'
 for(i=0; i<fruit.length; i++){
     console.log(fruit[i])
 }
-console.log(typeof(fruit))
+console.log(typeof(fruit)) 

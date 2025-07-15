@@ -26,10 +26,10 @@ let nam2 = [1, 12, 53, 29, 434, 45]
 let al = ['a', 'b', 'c', 'd', 'e']
 let vl =[10, 20, 30, 40, 50]
 
-let newArr = nam.concat(vl)
+let newArr = nam2.concat(vl)
 console.log(newArr)
 
-console.log(nam.sort())
+console.log(nam2.sort())
 console.log(vl.reverse())
 
 
